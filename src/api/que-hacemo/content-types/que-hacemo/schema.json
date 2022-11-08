@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "que_hacemos",
+  "info": {
+    "singularName": "que-hacemo",
+    "pluralName": "que-hacemos",
+    "displayName": "Que Hacemo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true,
+      "default": "¿Qué Hacemos?"
+    },
+    "Descripcion": {
+      "type": "text",
+      "required": true
+    },
+    "Contenido": {
+      "type": "text",
+      "required": true
+    },
+    "Fondo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

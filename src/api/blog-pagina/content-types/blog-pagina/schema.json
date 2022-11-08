@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_paginas",
+  "info": {
+    "singularName": "blog-pagina",
+    "pluralName": "blog-paginas",
+    "displayName": "Blog Pagina"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true,
+      "default": "Blog"
+    },
+    "Fondo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

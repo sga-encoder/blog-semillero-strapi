@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "hogars",
+  "info": {
+    "singularName": "hogar",
+    "pluralName": "hogars",
+    "displayName": "Hogar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true,
+      "default": "PNNN"
+    },
+    "Subtitulo": {
+      "type": "string",
+      "required": true,
+      "default": "Semillero de Investigación inaes - IE - GAR"
+    },
+    "Fondo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
